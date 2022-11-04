@@ -7,7 +7,7 @@ sudo apt-get install -y dotnet-sdk-6.0
 dotnet tool update --tool-path . csharp-ls
 sudo apt-get install -y unzip
 sudo apt-get install -y git
-sudo apt-get install  -y cargo
+sudo apt-get install -y cargo
 sudo apt-get install -y npm
 sudo apt-get install -y g++
 sudo apt-get install -y nodejs
@@ -24,6 +24,9 @@ cd ~/.config
 git clone https://github.com/Paerinso/nvim.git
 sudo chmod +x ~/.config/nvim/setup_most_recent_nvim.sh
 ./setup_most_recent_nvim.sh
+sudo apt-get remove -y rustc
+curl --proto '=https' --tlsv1.3 https://sh.rustup.rs -sSf | sh -s -- -y
+exec bash
 }
 
 Start vim then quit vim, start it again then:
