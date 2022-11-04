@@ -87,6 +87,11 @@ lspconfig["csharp_ls"].setup({
 	on_attach = on_attach,
 })
 
+-- lspconfig["rust-analyzer"].setup({
+-- 	capabilities = capabilities,
+-- 	on_attach = on_attach,
+-- })
+
 -- configure lua server (with special settings)
 lspconfig["sumneko_lua"].setup({
 	capabilities = capabilities,
