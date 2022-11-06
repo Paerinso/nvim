@@ -30,6 +30,8 @@ exec bash
 sudo apt-get install -y tmux
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 curl -o ~/.tmux.conf https://gist.githubusercontent.com/Paerinso/77db8ea9fbafbbda72f6b20b3af42d79/raw/f21681fe628fcc875bdcc290687adc278d8ebda9/.tmux.conf
+sudo apt-get exa
+sudo apt-get bat
 }
 
 Start vim then quit vim, start it again then:
