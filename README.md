@@ -36,3 +36,5 @@ Start vim then quit vim, start it again then:
 
 :TSUpdate
 :Mason
+
+Start tmux then ctrl + I
